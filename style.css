@@ -4,6 +4,7 @@
   --brown-light: #a5837a;
   --cream: #f5efe6;
   --cream-dark: #e8ddc9;
+  --header-height: 108px; /* top-banner + nav(72px) + border */
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -20,6 +21,9 @@ body {
   margin: 0 auto;
   padding: 0 24px;
 }
+
+/* Keep anchored sections from sliding under the fixed header */
+section[id] { scroll-margin-top: var(--header-height); }
 
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }

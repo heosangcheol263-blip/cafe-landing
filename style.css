@@ -35,6 +35,14 @@ ul { list-style: none; }
   border-bottom: 1px solid var(--cream-dark);
 }
 
+.top-banner {
+  background: var(--brown-dark);
+  color: var(--cream);
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 6px 16px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
